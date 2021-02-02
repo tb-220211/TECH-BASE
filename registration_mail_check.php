@@ -80,7 +80,7 @@ if(count($errors) === 0){
     $mail->SMTPAuth = true;
     $mail->Host = 'smtp.gmail.com'; // メインのSMTPサーバー（メールホスト名）を指定
     $mail->Username = 'tbouchikohei@gmail.com'; // SMTPユーザー名（メールユーザー名）
-    $mail->Password = 'nu2mzpvm7D'; // SMTPパスワード（メールパスワード）
+    $mail->Password = 'password'; // SMTPパスワード（メールパスワード）
     $mail->SMTPSecure = 'tls'; // TLS暗号化を有効にし、「SSL」も受け入れます
     $mail->Port = 587; // 接続するTCPポート
 
